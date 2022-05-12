@@ -1,0 +1,246 @@
+.bgimage-sec {
+
+    height: 600px;
+    width: 100%;
+    background-image: url(../IMAGES/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+   
+
+}
+
+/* .bgimage-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(52, 46, 46 , 0.4);
+   
+} */
+
+.newhome-text {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 2;
+
+}
+
+.welcome-text {
+    color: #fac564;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.newhome-h4 {
+    color: white;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.newhome_para {
+    color: white;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.order_btn {
+    border: none;
+    padding: 10px;
+    background-color: #fac564;
+    font-family: serif;
+    font-family: 25px;
+}
+
+.order_btn:hover {
+    background: transparent;
+    border: 2px solid #fac564;
+    color: white;
+}
+
+/* sec2 */
+
+.main_card{
+    width: 300px;
+}
+.card-text{
+    color: white;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+}
+.text-card{
+    color: grey;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.card_icons{
+    color: #fac564;
+}
+.icons_{
+    margin: 10px;
+    color: white;
+
+   
+}
+
+/* section 3 */
+
+.sec3_maindiv{
+    /* height: 500px; */
+    background-image: url(../IMAGES/bg_4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sec_3_img {
+    background-image: url(../IMAGES/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+}
+.sec3_text{
+    color: white;
+    padding: 5%;
+    
+   
+}
+.sec3_text h4{
+
+ font-size: 30px;
+ font-family: 'Courier New', Courier, monospace;
+
+
+}
+.sec3_text span{
+    color: #fac564;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.sec3_text p{
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+/* sec 4  */
+
+.sec4_main{
+   
+    background-image: url(../IMAGES//food.png);
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+.sec4_main h3{
+    font-size: 35px;
+    font-family: Arvina;
+
+}
+.sec4_main p{
+    font-family: sans-serif;
+    color: rgb(39, 35, 35);
+}
+.sec4_card{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    padding: 15px;
+  
+}
+.card_div{
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+.card_div:hover .card_icon_div{
+    background-color: orange;
+  transform: rotate(180deg);
+/* transform: scale(1.1); */
+-webkit-animation: rotate-center 0.8s ease-in-out both;
+animation: rotate-center 0.8s ease-in-out both;
+    
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+
+.card_div:hover .sec4card_icon{
+    color: white;
+    transform: rotate(0deg)!important;
+ 
+}
+.card_icon_div{
+    border: 1px solid orange;
+    width: 80px;
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    padding: 12px;
+   
+
+}
+
+  
+.sec4card_icon{
+    font-size: 40px !important;
+    color: rgb(41, 37, 37);
+}
+.card_title{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arvina;
+}
+.card_text_sec4{
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(86, 76, 76) !important;
+    font-family: serif !important;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .sec4_card{
+        display: block;
+        justify-content: center;
+       margin: auto;
+        padding: 0;
+
+    }
+
+
+
+}
